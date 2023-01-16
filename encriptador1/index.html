@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Mi primer encriptador</title>
+    </head>
+    <body>
+        <header>
+        
+            <img src="imagenes/Frame 6.png" alt="Logo" id="logo">
+            
+        </header>
+        
+            
+
+        <textarea class="textarea1" id="textarea"  placeholder="Ingrese el texto aqui..."></textarea>
+               
+            
+        <div class="container">
+               
+            <div>
+                <p class="aclaracion"><img src="imagenes/bi_exclamation-circle-fill.png" alt="circulo exclamacion" class="circulo"> Solo letras minusculas y sin tilde</p>
+            </div>
+                   
+        </div>
+
+        <div id="contenedor-botones">
+            <input id="encriptar" type="button" value="Encriptar" onclick="encriptar()">
+            <input id="desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+        </div>
+        
+        <section class="container2">
+                
+            <div>
+                <img class="muneco"  id="imagenMuneco" src="imagenes/Muñeco.png" alt="Muchacho mirando un diamante">
+            </div>
+            <p id="parrafo">Ningun mensaje fue encontrado</p>
+            <div>
+                
+                <textarea id="textarea2"  placeholder="Ingresa el texto que deseas encriptar o desencriptar"></textarea> 
+            </div>
+                       
+            <div>
+                <input id="btn-copiar" type="button" value="copiar" onclick="copiar()">
+            </div>    
+                    
+                
+            
+        </section>   
+        
+        <footer>
+            <p> &#169; Copyrigth Alura- Ejercicio de Debora Cepeda- Todos los derechos reservados</p>
+        </footer>
+       
+        <script src="script.js"></script>
+
+    </body>
+    
+</html>
