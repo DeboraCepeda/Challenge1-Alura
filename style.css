@@ -157,7 +157,7 @@ body{
 }
 
 #btn-copiar{
-    width: 288px;
+    width: 330px;
     height: 19px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -168,14 +168,14 @@ body{
     color: #0A3871;
     border-radius: 24px;
     padding: 24px;
-    margin-left: 40px;
+    margin-left: 41px;
     margin-top: 20px;
     display: none;
    
 }
 footer p{
    text-align: center;
-   margin-left:-224px;
+   margin-left:-319px;
    display: inline-block;
    margin-top: 989px;
    vertical-align: bottom;
@@ -188,7 +188,7 @@ footer p{
         width: 768px;
         height: 1174px;
         position: relative;
-        background: #F3F5FC;
+        background: #8080c5;
         
     }
     #logo{
@@ -200,10 +200,10 @@ footer p{
       
     }
     #textarea{
-        width: 688px;
-        height: 48px;
-        left: 40px;
-        top: 240px;
+        width: 666px;
+        height: 392px;
+        left: 56px;
+        top: 166px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -220,37 +220,32 @@ footer p{
         font-weight: bold;
         font-size: 12px;
         line-height: 150%;
-        color: #495057;
+        color:white;
         position: relative; 
-        left: -84px;
-        top: -58px;
+        left: -51px;
+        top: -250px;
     }
     #contenedor-botones{
-        flex-direction: row;
-        align-items: flex-start;
         padding: 0px;
         gap: 24px;
         position: absolute;
         width: 688px;
         height: 67px;
-        left: 40px;
-        top: 841px;
+        left: 42px;
+        top: 640px;
         display: flex;
     }
     #encriptar{
         padding: 24px;
-        gap: 8px;
         width: 332px;
         height: 67px;
         background: #0A3871;
         border-radius: 24px;
         flex: none;
-        order: 0;
-        flex-grow: 1;  
+        position: absolute; 
+        left: 1px;
     }
     #desencriptar{
-        flex-direction: row;
-        align-items: flex-start;
         padding: 24px;
         gap: 8px;
         width: 332px;
@@ -258,21 +253,19 @@ footer p{
         border: 1px solid #0A3871;
         border-radius: 24px;
         flex: none;
-        order: 1;
-        flex-grow: 1; 
+        position: relative;
+        left: 358px; 
     }
     
     .container2{
-        flex-direction: column;
-        align-items: flex-start;
         padding: 32px;
         gap: 32px;
-        display: flexbox;
+        display: flex;
         position: absolute;
         width: 640px;
-        height: 133px;
-        left: 40px;
-        top: 931px;
+        height: 286px;
+        left: 44px;
+        top: 741px;
         background: #FFFFFF;
         box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
         border-radius: 32px;
@@ -296,8 +289,8 @@ footer p{
         left: 185px;
     }
     #textarea2{
-        width: 624px;
-        height: 24px;
+        width: 570px;
+        height: 246px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: bold;
@@ -306,19 +299,19 @@ footer p{
         text-align: center;
         color: #0A3871;
         position: absolute; 
-        top: 96px; 
+        top: 61px; 
     }
     #btn-copiar{
-        left: 76px;
+        left: 66px;
         position: absolute;
-        top: 124px;
+        top: 269px;
         width: 500px;
     }
     footer p{
         position: absolute;
         display: inline-block;
         top: 151px;
-        left: 355px;
+        left: 374px;
     }
     
 }
@@ -327,7 +320,7 @@ footer p{
     body{
         width: 375px;
         height: 933px;
-        background: #F3F5FC;
+        background:rgb(146, 193, 134);
         position: relative;
     }
     header{
@@ -345,17 +338,17 @@ footer p{
         position: absolute;
     }
     #textarea{
-        width: 343px;
-        height: 48px;
-        left: 16px;
-        top: 152px;
+        width: 434px;
+        height: 230px;
+        left: 7px;
+        top: 129px;
         position: absolute;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 32px;
         line-height: 150%;
-        color: #0A3871;
+        color: #0b2202;
     }
     .circulo{
         height: 16px;
@@ -372,10 +365,9 @@ footer p{
         font-weight: 400;
         font-size: 12px;
         line-height: 150%;
-        color: #495057;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
+        color:black;
+        top: -471px;
+        left: -117px;
     }
     #contenedor-botones{
         flex-direction: column;
@@ -384,18 +376,18 @@ footer p{
         gap: 24px;
         display: flex;
         position: absolute;
-        width: 343px;
+        width: 402px;
         height: 158px;
-        left: 16px;
-        top: 485px;
+        left: 25px;
+        top: 420px;
     }
     #encriptar{
         flex-direction: row;
         align-items: flex-start;
         padding: 24px;
         gap: 8px;
-        width: 343px;
-        height: 67px;
+        width: 402px;
+        height: 88px;
         background: #0A3871;
         border-radius: 24px;
         flex: none;
@@ -405,19 +397,15 @@ footer p{
         
     }
     #desencriptar{
-        flex-direction: row;
-        align-items: flex-start;
         padding: 24px;
-        gap: 8px;
-        width: 343px;
-        height: 67px;
+        width: 402px;
+        height: 88px;
         border: 1px solid #0A3871;
         border-radius: 24px;
         flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-        box-sizing: border-box;
+        left: -7px;
+        position: relative;
+        top: 107px;
     }
     .container2{
         flex-direction: column;
@@ -426,10 +414,10 @@ footer p{
         gap: 32px;
         display: flex;
         position: absolute;
-        width: 327px;
-        height: 186px;
-        left: 24px;
-        top: 707px;
+        width: 370px;
+        height: 310px;
+        left: 6px;
+        top: 656px;
         background: #FFFFFF;
         box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
         border-radius: 32px;
@@ -444,37 +432,36 @@ footer p{
         font-weight: 700;
         font-size: 24px;
         line-height: 100%;
-        left: 63px; 
+        left: 92px; 
         
     }
     #textarea2{
-        width: 273px;
-        height: 48px;
+        width: 350px;
+        height: 270px;
         font-family: 'Inter';
         font-style: normal;
-        font-weight: 400;
+        font-weight: bold;
         font-size: 16px;
         line-height: 150%;
         text-align: center;
-        color: #495057;
-        display: flex;   
+        color: #042c0d;
+        display: flex;  
+        top: 87px; 
     }
     #btn-copiar{
-        align-items: flex-start;
         padding: 24px;
-        gap: 8px;
-        width: 279px;
+        width: 375px;
         height: 67px;
         border: 1px solid #0A3871;
         border-radius: 24px;
-        left: 10px;
-        top: 155px;
+        left: -11px;
+        top: 281px;
     }
     footer p{
         width: 350px;
         height: 31px;
-        left: 251px;
-        top:0;
+        left: 274px;
+        top:64px;
         position: relative;
         display: inline-flex
     }
