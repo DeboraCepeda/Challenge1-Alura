@@ -1,6 +1,11 @@
   
 function encriptar(){
     var texto= document.querySelector("#textarea").value.toLowerCase();
+    var texto= texto.replace(/á/img, "a");
+    var texto= texto.replace(/é/img, "e");
+    var texto= texto.replace(/í/img, "i");
+    var texto= texto.replace(/ó/img, "o");
+    var texto= texto.replace(/ú/img, "u");
     var txtEncriptado=texto.replace(/e/img,"enter");
     var txtEncriptado=txtEncriptado.replace(/o/img,"ober");
     var txtEncriptado=txtEncriptado.replace(/i/img,"imes");

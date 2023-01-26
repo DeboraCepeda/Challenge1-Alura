@@ -311,7 +311,7 @@ footer p{
         position: absolute;
         display: inline-block;
         top: 151px;
-        left: 374px;
+        left: 450px;
     }
     
 }
@@ -460,9 +460,9 @@ footer p{
     footer p{
         width: 350px;
         height: 31px;
-        left: 274px;
+        left:364px;
         top:64px;
-        position: relative;
-        display: inline-flex
+        position: absolute;
+        
     }
 }
